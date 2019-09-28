@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC&display=swap" rel="stylesheet">
+
+    <!-- <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <!-- <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css"> -->
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Game</title>
+</head>
+<body>
+    <!-- <p>Hello Ludo Game!</p> -->
+
+        <div class="game-section clearfix">
+
+                <div class="target-notify" id="target">Your target is 000</div>
+
+
+            <div class="game-section__player--0 active">
+                <div class="player-name" id="player-0">Player 1</div>
+                <div class="player-score"  id="totalScorePlayer-0">12</div>
+                  <div class="player-current">
+                    <div class="player-current-box">
+                        <div class="player-current-label">Current</div>
+                        <div class="player-current-score" id="currentScorePlayer-0">6</div>
+                       
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="game-section__player--1 ">
+                    <div class="player-name " id="player-1">Player 2</div>
+                    <div class="player-score" id="totalScorePlayer-1">12</div>
+                      <div class="player-current">
+                        <div class="player-current-box">
+                            <div class="player-current-label">Current</div>
+                            <div class="player-current-score" id="currentScorePlayer-1">6</div>
+                        </div>
+                    </div>
+            </div>
+            
+            <button class="btn-new" id="btn-new"><i class="material-icons">control_point</i>New Game</button>
+            <button class="btn-roll" id="btn-roll"><i class="material-icons">refresh</i>Roll Dice</button>
+            <button class="btn-hold" id="btn-hold"><i class="material-icons">emoji_people</i>Hold</button>
+
+            <input type="text" placeholder="Final Score" class="final-score" >
+            
+            <img src="img/dice-5.png" alt="Dice" class="dice" id="dice-1">
+
+            <script src="app.js"></script>
+
+
+        </div>
+
+
+
+
+
+
+
+
+</body>
+</html>
