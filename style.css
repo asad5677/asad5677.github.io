@@ -132,6 +132,13 @@ button {
     font-weight: 00;
     /* transition: background-color 0.3s, color 0.3s */
     text-transform: uppercase;
+
+}
+
+button:active {
+    outline: none;
+    border: none;
+    background-color: none;
 }
 
 button i{
